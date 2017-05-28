@@ -76,7 +76,7 @@ Check the logs of these two pods to verify that they've started up without any e
 are running in the **kube-system** namespace so you'll need to append `-n kube-system` to your log commands.
 
 If both pods are running, you should be good to go.  Log into the Kubernetes Dashboard and 
-[behold those dazzling graphs](https://www.youtube.com/watch?v=sIlNIVXpIns) that you're desirous of for so very long.
+[behold those dazzling graphs](https://www.youtube.com/watch?v=sIlNIVXpIns) that you've been desirous of for so very long.
 
 ### Tearing it down
 To undeploy all of this Heapster/Influxdb goodness, simply run the following command from the directory where you've
