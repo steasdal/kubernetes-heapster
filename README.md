@@ -77,3 +77,11 @@ are running in the **kube-system** namespace so you'll need to append `-n kube-s
 
 If both pods are running, you should be good to go.  Log into the Kubernetes Dashboard and 
 [behold those dazzling graphs](https://www.youtube.com/watch?v=sIlNIVXpIns) that you're desirous of for so very long.
+
+### Tearing it down
+To undeploy all of this Heapster/Influxdb goodness, simply run the following command from the directory where you've
+cloned this project:
+
+```bash
+$ kubectl delete -f deploy/
+```
